@@ -1,6 +1,6 @@
 from Animal import *
 from Canine import *
-from random import *
+import random
 
 class Wolf(Canine):
 

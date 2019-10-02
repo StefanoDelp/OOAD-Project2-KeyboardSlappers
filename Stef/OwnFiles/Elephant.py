@@ -6,8 +6,7 @@ class Elephant(Pachyderm):
 
     y = random.randint(1,2)
     Names = ""
-    food = "Hay";
-    resp  = Response();
+    food = "Hay"
     def MakeNoise(self):
         print("Toot")
 
