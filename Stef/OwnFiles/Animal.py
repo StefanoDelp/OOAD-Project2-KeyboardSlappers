@@ -4,9 +4,6 @@ class Animal(abc.ABC):
     def makeNoise(self):
         pass
     @abc.abstractmethod
-    def setName(self):
-        pass
-    @abc.abstractmethod
     def wakeUp(self):
         pass
     @abc.abstractmethod
