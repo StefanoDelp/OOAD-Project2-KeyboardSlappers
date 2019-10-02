@@ -3,7 +3,7 @@ import random
 class Canine(Animal):
     Names = ""
 
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Dog")
         
     #def setName(self):
@@ -14,19 +14,19 @@ class Canine(Animal):
         y = random.randint(1,2)
         return y
     
-    def roam(self):
+    def Roam(self):
         if (Response() == 1):
             return ("Canine roamed.")
         else:
             return ("Canine did not roam.")
         
-    def eat(self):
+    def Eat(self):
         if(Response() == 1):
             return ("Canine ate.")
         else: 
             return ("Canine did not want to eat.")
         
-    def sleep(self):
+    def Sleep(self):
         if(Response() == 1):
             return ("Canine is sleeping.") 
         
@@ -34,7 +34,7 @@ class Canine(Animal):
             return ("Canine did not want to sleep.") 
          
      
-    def wakeUp(self): 
+    def WakeUp(self): 
         if(Response() == 1):  
             return ("Canine is awake.") 
         else: 

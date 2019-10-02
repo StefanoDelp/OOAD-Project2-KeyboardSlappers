@@ -7,26 +7,26 @@ class Tiger(Feline):
     y = random.randint(1,2)
     Names = ""
     food = "Meat"
-    def makeNoise(self):
+    def MakeNoise(self):
         print("ROAR")
 
     ###def setName(Name):
     ###    Names = Name
     ###    return Name
     
-    def roam(self):
+    def Roam(self):
         if (Tiger.y == 1):
             return ("Tiger roamed.")
         else:
             return ("Tiger did not roam.")
         
-    def eat(self):
+    def Eat(self):
         if(Tiger.y == 1):
             return ("Tiger ate.")
         else: 
             return ("Tiger did not want to eat.")
         
-    def sleep(self):
+    def Sleep(self):
         if(Tiger.y == 1):
             return ("Tiger is sleeping.") 
         
@@ -34,7 +34,7 @@ class Tiger(Feline):
             return ("Tiger did not want to sleep.") 
          
      
-    def wakeUp(self): 
+    def WakeUp(self): 
         if(Tiger.y == 1):  
             return ("Tiger is awake.") 
         else: 
