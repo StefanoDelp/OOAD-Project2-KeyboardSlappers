@@ -10,26 +10,26 @@ class Feline(Animal):
 
     def Roam(self):
         if (Feline.y == 1):
-            return ("Feline roamed.")
+            print ("Feline roamed.")
         else:
-            return ("Feline did not roam.")
+            print ("Feline did not roam.")
 
     def Eat(self):
         if(Feline.y == 1):
-            return ("Feline ate.")
+            print ("Feline ate.")
         else:
-            return ("Feline did not want to eat.")
+            print ("Feline did not want to eat.")
 
     def Sleep(self):
         if(Feline.y == 1):
-            return ("Feline is sleeping.")
+            print ("Feline is sleeping.")
 
         else:
-            return ("Feline did not want to sleep.")
+            print ("Feline did not want to sleep.")
 
 
     def WakeUp(self):
         if(Feline.y == 1):
-            return ("Feline is awake.")
+            print ("Feline is awake.")
         else:
-            return ("Feline did not want to wake up.")
+            print ("Feline did not want to wake up.")

@@ -6,33 +6,30 @@ class Canine(Animal):
     def MakeNoise(self):
         print("Dog")
 
-    #def setName(self):
-        #Name = Names
-        #return Name
     y = random.randint(1,2)
 
     def Roam(self):
         if (Canine.y == 1):
-            return ("Canine roamed.")
+            print ("Canine roamed.")
         else:
-            return ("Canine did not roam.")
+            print ("Canine did not roam.")
 
     def Eat(self):
         if(Canine.y == 1):
-            return ("Canine ate.")
+            print ("Canine ate.")
         else:
-            return ("Canine did not want to eat.")
+            print ("Canine did not want to eat.")
 
     def Sleep(self):
         if(Canine.y == 1):
-            return ("Canine is sleeping.")
+            print ("Canine is sleeping.")
 
         else:
-            return ("Canine did not want to sleep.")
+            print ("Canine did not want to sleep.")
 
 
     def WakeUp(self):
         if(Canine.y == 1):
-            return ("Canine is awake.")
+            print ("Canine is awake.")
         else:
-            return ("Canine did not want to wake up.")
+            print ("Canine did not want to wake up.")

@@ -11,26 +11,26 @@ class Pachyderm(Animal):
 
     def Roam(self):
         if (Pachyderm.y == 1):
-            return ("Pachyderm roamed.")
+            print ("Pachyderm roamed.")
         else:
-            return ("Pachyderm did not roam.")
+            print ("Pachyderm did not roam.")
 
     def Eat(self):
         if(Pachyderm.y == 1):
-            return ("Pachyderm ate.")
+            print ("Pachyderm ate.")
         else:
-            return ("Pachyderm did not want to eat.")
+            print ("Pachyderm did not want to eat.")
 
     def Sleep(self):
         if(Pachyderm.y == 1):
-            return ("Pachyderm is sleeping.")
+            print ("Pachyderm is sleeping.")
 
         else:
-            return ("Pachyderm did not want to sleep.")
+            print ("Pachyderm did not want to sleep.")
 
 
     def WakeUp(self):
         if(Pachyderm.y == 1):
-            return ("Pachyderm is awake.")
+            print ("Pachyderm is awake.")
         else:
-            return ("Pachyderm did not want to wake up.")
+            print ("Pachyderm did not want to wake up.")
