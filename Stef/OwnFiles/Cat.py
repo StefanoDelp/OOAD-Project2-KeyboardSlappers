@@ -1,16 +1,16 @@
 import abc
 import random
-from Pachyderm import *
+from Feline import *
 
-class Elephant(Pachyderm):
+class Cat(Feline):
     def Response():
         y = random.randint(1,2)
         return y
     Names = ""
-    food = "Hay";
+    food = "kibble";
     resp  = Response();
     def makeNoise(self):
-        print("Toot")
+        print("Meow")
 
     def setName(Name):
         Names = Name
@@ -18,26 +18,26 @@ class Elephant(Pachyderm):
 
     def roam():
         if (Response() == 1):
-            return ("Elephant roamed.")
+            return ("Cat roamed.")
         else:
-            return ("Elephant did not roam.")
+            return ("Cat did not roam.")
 
     def eat():
         if(Response() == 1):
-            return ("Elephant ate.")
+            return ("Cat ate.")
         else:
-            return ("Elephant did not want to eat.")
+            return ("Cat did not want to eat.")
 
     def sleep():
         if(Response() == 1):
-            return ("Elephant is sleeping.")
+            return ("Cat is sleeping.")
 
         else:
-            return ("Elephant did not want to sleep.")
+            return ("Cat did not want to sleep.")
 
 
     def wakeUp():
         if(Response() == 1):
-            return ("Elephant is awake.")
+            return ("Cat is awake.")
         else:
-            return ("Elephant did not want to wake up.")
+            return ("Cat did not want to wake up.")

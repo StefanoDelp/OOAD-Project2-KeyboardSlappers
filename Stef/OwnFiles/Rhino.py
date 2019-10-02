@@ -1,5 +1,6 @@
 import abc
 import random
+from Pachyderm import *
 
 class Rhino(Pachyderm):
     def Response():
