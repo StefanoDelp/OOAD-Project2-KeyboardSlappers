@@ -33,7 +33,7 @@ class Cat(Feline):
 
 
     def WakeUp(self):
-        if(Cat.py == 1):
+        if(Cat.y == 1):
             return ("Cat is awake.")
         else:
             return ("Cat did not want to wake up.")
