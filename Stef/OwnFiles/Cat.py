@@ -16,19 +16,19 @@ class Cat(Feline):
         Names = Name
         return Name
 
-    def roam():
+    def roam(self):
         if (Response() == 1):
             return ("Cat roamed.")
         else:
             return ("Cat did not roam.")
 
-    def eat():
+    def eat(self):
         if(Response() == 1):
             return ("Cat ate.")
         else:
             return ("Cat did not want to eat.")
 
-    def sleep():
+    def sleep(self):
         if(Response() == 1):
             return ("Cat is sleeping.")
 
@@ -36,7 +36,7 @@ class Cat(Feline):
             return ("Cat did not want to sleep.")
 
 
-    def wakeUp():
+    def wakeUp(self):
         if(Response() == 1):
             return ("Cat is awake.")
         else:

@@ -16,19 +16,19 @@ class Elephant(Pachyderm):
         Names = Name
         return Name
 
-    def roam():
+    def roam(self):
         if (Response() == 1):
             return ("Elephant roamed.")
         else:
             return ("Elephant did not roam.")
 
-    def eat():
+    def eat(self):
         if(Response() == 1):
             return ("Elephant ate.")
         else:
             return ("Elephant did not want to eat.")
 
-    def sleep():
+    def sleep(self):
         if(Response() == 1):
             return ("Elephant is sleeping.")
 
@@ -36,7 +36,7 @@ class Elephant(Pachyderm):
             return ("Elephant did not want to sleep.")
 
 
-    def wakeUp():
+    def wakeUp(self):
         if(Response() == 1):
             return ("Elephant is awake.")
         else:

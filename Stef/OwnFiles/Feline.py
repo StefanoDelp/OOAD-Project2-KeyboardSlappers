@@ -14,7 +14,7 @@ class Feline(Animal):
         Names = Name
         return Name
 
-    def roam():
+    def roam(self):
         if (Response() == 1):
             return ("Feline roamed.")
         else:

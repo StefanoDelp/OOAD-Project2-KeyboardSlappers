@@ -14,19 +14,19 @@ class Pachyderm(Animal):
         Names = Name
         return Name
 
-    def roam():
+    def roam(self):
         if (Response() == 1):
             return ("Pachyderm roamed.")
         else:
             return ("Pachyderm did not roam.")
 
-    def eat():
+    def eat(self):
         if(Response() == 1):
             return ("Pachyderm ate.")
         else:
             return ("Pachyderm did not want to eat.")
 
-    def sleep():
+    def sleep(self):
         if(Response() == 1):
             return ("Pachyderm is sleeping.")
 
@@ -34,7 +34,7 @@ class Pachyderm(Animal):
             return ("Pachyderm did not want to sleep.")
 
 
-    def wakeUp():
+    def wakeUp(self):
         if(Response() == 1):
             return ("Pachyderm is awake.")
         else:
