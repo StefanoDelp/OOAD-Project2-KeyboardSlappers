@@ -3,9 +3,8 @@ import random
 from Pachyderm import *
 
 class Elephant(Pachyderm):
-    def Response():
-        y = random.randint(1,2)
-        return y
+
+    y = random.randint(1,2)
     Names = ""
     food = "Hay";
     resp  = Response();
@@ -17,19 +16,19 @@ class Elephant(Pachyderm):
         return Name
 
     def roam(self):
-        if (Response() == 1):
+        if (Elephant.y == 1):
             return ("Elephant roamed.")
         else:
             return ("Elephant did not roam.")
 
     def eat(self):
-        if(Response() == 1):
+        if(Elephant.y == 1):
             return ("Elephant ate.")
         else:
             return ("Elephant did not want to eat.")
 
     def sleep(self):
-        if(Response() == 1):
+        if(Elephant.y == 1):
             return ("Elephant is sleeping.")
 
         else:
@@ -37,7 +36,7 @@ class Elephant(Pachyderm):
 
 
     def wakeUp(self):
-        if(Response() == 1):
+        if(Elephant.y == 1):
             return ("Elephant is awake.")
         else:
             return ("Elephant did not want to wake up.")

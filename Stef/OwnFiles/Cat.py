@@ -3,12 +3,12 @@ import random
 from Feline import *
 
 class Cat(Feline):
-    def Response():
-        y = random.randint(1,2)
-        return y
+
+    y = random.randint(1,2)
+
     Names = ""
     food = "kibble";
-    resp  = Response();
+    #resp  = Response();
     def makeNoise(self):
         print("Meow")
 
@@ -17,19 +17,19 @@ class Cat(Feline):
         return Name
 
     def roam(self):
-        if (Response() == 1):
+        if (Cat.y == 1):
             return ("Cat roamed.")
         else:
             return ("Cat did not roam.")
 
     def eat(self):
-        if(Response() == 1):
+        if(Cat.y == 1):
             return ("Cat ate.")
         else:
             return ("Cat did not want to eat.")
 
     def sleep(self):
-        if(Response() == 1):
+        if(Cat.y == 1):
             return ("Cat is sleeping.")
 
         else:
@@ -37,7 +37,7 @@ class Cat(Feline):
 
 
     def wakeUp(self):
-        if(Response() == 1):
+        if(Cat.py == 1):
             return ("Cat is awake.")
         else:
             return ("Cat did not want to wake up.")

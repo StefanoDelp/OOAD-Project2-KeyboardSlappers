@@ -3,12 +3,11 @@ import random
 from Canine import *
 
 class Dog(Canine):
-    def Response():
-        y = random.randint(1,2)
-        return y
+
+    y = random.randint(1,2)
     Names = ""
     food = "Dog Bites";
-    resp  = Response();
+    #resp  = Response();
     def makeNoise(self):
         print("Woof,Ruff")
 
@@ -17,19 +16,19 @@ class Dog(Canine):
         return Name
 
     def roam(self):
-        if (Response() == 1):
+        if (Dog.y == 1):
             return ("Dog roamed.")
         else:
             return ("Dog did not roam.")
 
     def eat(self):
-        if(Response() == 1):
+        if(Dog.y == 1):
             return ("Dog ate.")
         else:
             return ("Dog did not want to eat.")
 
     def sleep(self):
-        if(Response() == 1):
+        if(Dog.y == 1):
             return ("Dog is sleeping.")
 
         else:
@@ -37,7 +36,7 @@ class Dog(Canine):
 
 
     def wakeUp(self):
-        if(Response() == 1):
+        if(Dog.y == 1):
             return ("Dog is awake.")
         else:
             return ("Dog did not want to wake up.")
