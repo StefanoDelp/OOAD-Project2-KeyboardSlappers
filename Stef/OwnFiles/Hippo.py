@@ -11,10 +11,6 @@ class Hippo(Pachyderm):
     def MakeNoise(self):
         print("Snap")
         
-    ###def setName(Name):
-    ###    Names = Name
-    ###    return Name
-    
     def Roam(self):
         if (Hippo.y == 1):
             return ("Hippo roamed.")

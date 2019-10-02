@@ -10,9 +10,6 @@ class Lion(Feline):
     def MakeNoise(self):
         print("ROAR")
         
-    ###def setName(Name):
-    ###    Names = Name
-    ###    return Name
     
     def Roam(self):
         if (Lion.y == 1):

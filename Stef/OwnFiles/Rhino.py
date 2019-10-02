@@ -10,10 +10,6 @@ class Rhino(Pachyderm):
     def MakeNoise(self):
         print("Rhino Growl")
 
-    #def setName(Name):
-    #    Names = Name
-    #    return Name
-
     def Roam(self):
         if (Rhino.y == 1):
             return ("Rhino roamed.")

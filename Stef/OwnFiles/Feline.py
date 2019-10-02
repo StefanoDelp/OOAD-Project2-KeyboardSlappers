@@ -5,13 +5,8 @@ from Animal import *
 class Feline(Animal):
 
     y = random.randint(1,2)
-    #resp  = Response();
     def MakeNoise(self):
         print("Meow")
-
-    #def setName(Name):
-    #    Names = Name
-    #    return Name
 
     def Roam(self):
         if (Feline.y == 1):

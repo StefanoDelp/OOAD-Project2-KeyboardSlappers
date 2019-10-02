@@ -10,10 +10,6 @@ class Tiger(Feline):
     def MakeNoise(self):
         print("ROAR")
 
-    ###def setName(Name):
-    ###    Names = Name
-    ###    return Name
-
     def Roam(self):
         if (Tiger.y == 1):
             return ("Tiger roamed.")
@@ -30,13 +26,6 @@ class Tiger(Feline):
         if(Tiger.y == 1):
             return ("Tiger is sleeping.")
 
-        else:
-            return ("Tiger did not want to sleep.")
-
-
-    def wakeUp(self):
-        if(Tiger.y == 1):
-            return ("Tiger is awake.")
         else:
             return ("Tiger did not want to sleep.")
 

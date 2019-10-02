@@ -5,13 +5,9 @@ from Animal import *
 class Pachyderm(Animal):
 
     y = random.randint(1,2)
-    #resp  = Response();
+
     def MakeNoise(self):
         print("Stomp")
-
-    #def setName(Name):
-    #    Names = Name
-    #    return Name
 
     def Roam(self):
         if (Pachyderm.y == 1):

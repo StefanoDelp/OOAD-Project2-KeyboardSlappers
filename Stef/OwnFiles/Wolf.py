@@ -31,14 +31,6 @@ class Wolf(Canine):
         else:
             return ("Wolf did not want to sleep.")
 
-
-    def wakeUp(self):
-        if(Wolf.y == 1):
-            return ("Wolf is awake.")
-        else:
-            return ("Wolf did not want to sleep.")
-
-
     def WakeUp(self):
         if(Wolf.y == 1):
             return ("Wolf is awake.")

@@ -10,10 +10,6 @@ class Elephant(Pachyderm):
     def MakeNoise(self):
         print("Toot")
 
-    ###def setName(Name):
-    ###    Names = Name
-    ###    return Name
-
     def Roam(self):
         if (Elephant.y == 1):
             return ("Elephant roamed.")

@@ -6,14 +6,9 @@ class Dog(Canine):
 
     y = random.randint(1,2)
     Names = ""
-    food = "Dog Bites";
-    #resp  = Response();
+    food = "Dog Bites"
     def MakeNoise(self):
         print("Woof,Ruff")
-
-    def SetName(Name):
-        Names = Name
-        return Name
 
     def Roam(self):
         if (Dog.y == 1):

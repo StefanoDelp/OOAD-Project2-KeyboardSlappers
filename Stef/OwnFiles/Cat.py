@@ -12,10 +12,6 @@ class Cat(Feline):
     def MakeNoise(self):
         print("Meow")
 
-    def SetName(Name):
-        Names = Name
-        return Name
-
     def Roam(self):
         if (Cat.y == 1):
             return ("Cat roamed.")
