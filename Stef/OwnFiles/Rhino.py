@@ -7,7 +7,6 @@ class Rhino(Pachyderm):
     y = random.randint(1,2)
     Names = ""
     food = "Grass"
-    resp  = Response()
     def MakeNoise(self):
         print("Rhino Growl")
 
