@@ -28,7 +28,7 @@ class Zoo():
         RandyRhino = Rhino()
         TonyTiger = Tiger()
         TimmyTiger = Tiger()
-        ZaneZooKeeper = Zookeeper()
+        ZaneZooKeeper = ZooKeeper()
         ZaneZooKeeper.Add(WillieWolf)
         ZaneZooKeeper.Add(WhinnyWolf)
         ZaneZooKeeper.Add(CarlCat)
