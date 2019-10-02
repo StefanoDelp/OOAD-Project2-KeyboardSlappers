@@ -9,26 +9,26 @@ class Cat(Feline):
     Names = ""
     food = "kibble";
     #resp  = Response();
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Meow")
 
-    def setName(Name):
+    def SetName(Name):
         Names = Name
         return Name
 
-    def roam(self):
+    def Roam(self):
         if (Cat.y == 1):
             return ("Cat roamed.")
         else:
             return ("Cat did not roam.")
 
-    def eat(self):
+    def Eat(self):
         if(Cat.y == 1):
             return ("Cat ate.")
         else:
             return ("Cat did not want to eat.")
 
-    def sleep(self):
+    def Sleep(self):
         if(Cat.y == 1):
             return ("Cat is sleeping.")
 
@@ -36,7 +36,7 @@ class Cat(Feline):
             return ("Cat did not want to sleep.")
 
 
-    def wakeUp(self):
+    def WakeUp(self):
         if(Cat.py == 1):
             return ("Cat is awake.")
         else:

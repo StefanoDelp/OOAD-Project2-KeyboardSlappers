@@ -6,26 +6,26 @@ class Pachyderm(Animal):
 
     y = random.randint(1,2)
     #resp  = Response();
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Stomp")
 
-    def setName(Name):
-        Names = Name
-        return Name
+    #def setName(Name):
+    #    Names = Name
+    #    return Name
 
-    def roam(self):
+    def Roam(self):
         if (Pachyderm.y == 1):
             return ("Pachyderm roamed.")
         else:
             return ("Pachyderm did not roam.")
 
-    def eat(self):
+    def Eat(self):
         if(Pachyderm.y == 1):
             return ("Pachyderm ate.")
         else:
             return ("Pachyderm did not want to eat.")
 
-    def sleep(self):
+    def Sleep(self):
         if(Pachyderm.y == 1):
             return ("Pachyderm is sleeping.")
 
@@ -33,7 +33,7 @@ class Pachyderm(Animal):
             return ("Pachyderm did not want to sleep.")
 
 
-    def wakeUp():
+    def WakeUp(self):
         if(Pachyderm.y == 1):
             return ("Pachyderm is awake.")
         else:

@@ -8,26 +8,26 @@ class Elephant(Pachyderm):
     Names = ""
     food = "Hay";
     resp  = Response();
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Toot")
 
-    def setName(Name):
-        Names = Name
-        return Name
+    ###def setName(Name):
+    ###    Names = Name
+    ###    return Name
 
-    def roam(self):
+    def Roam(self):
         if (Elephant.y == 1):
             return ("Elephant roamed.")
         else:
             return ("Elephant did not roam.")
 
-    def eat(self):
+    def Eat(self):
         if(Elephant.y == 1):
             return ("Elephant ate.")
         else:
             return ("Elephant did not want to eat.")
 
-    def sleep(self):
+    def Sleep(self):
         if(Elephant.y == 1):
             return ("Elephant is sleeping.")
 
@@ -35,7 +35,7 @@ class Elephant(Pachyderm):
             return ("Elephant did not want to sleep.")
 
 
-    def wakeUp(self):
+    def WakeUp(self):
         if(Elephant.y == 1):
             return ("Elephant is awake.")
         else:

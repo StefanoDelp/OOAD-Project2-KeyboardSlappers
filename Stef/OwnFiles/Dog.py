@@ -8,26 +8,26 @@ class Dog(Canine):
     Names = ""
     food = "Dog Bites";
     #resp  = Response();
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Woof,Ruff")
 
-    def setName(Name):
+    def SetName(Name):
         Names = Name
         return Name
 
-    def roam(self):
+    def Roam(self):
         if (Dog.y == 1):
             return ("Dog roamed.")
         else:
             return ("Dog did not roam.")
 
-    def eat(self):
+    def Eat(self):
         if(Dog.y == 1):
             return ("Dog ate.")
         else:
             return ("Dog did not want to eat.")
 
-    def sleep(self):
+    def Sleep(self):
         if(Dog.y == 1):
             return ("Dog is sleeping.")
 
@@ -35,7 +35,7 @@ class Dog(Canine):
             return ("Dog did not want to sleep.")
 
 
-    def wakeUp(self):
+    def WakeUp(self):
         if(Dog.y == 1):
             return ("Dog is awake.")
         else:
