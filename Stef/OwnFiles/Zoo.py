@@ -48,6 +48,7 @@ class Zoo():
         ZaneZooKeeper.WakeUp()
         ZaneZooKeeper.RollCall()
         ZaneZooKeeper.Roam()
+        ZaneZooKeeper.Eat()
         ZaneZooKeeper.Sleep()
 
 
