@@ -1,21 +1,21 @@
 import abc
 class Animal(abc.ABC):
     @abc.abstractmethod
-    def makeNoise(self):
+    def MakeNoise(self):
         pass
     @abc.abstractmethod
-    def wakeUp(self):
+    def WakeUp(self):
         pass
     @abc.abstractmethod
     def Response(self):
         pass
     @abc.abstractmethod
-    def roam(self):
+    def Roam(self):
         pass
     awake = False
     @abc.abstractmethod
-    def eat(self):
+    def Eat(self):
         pass
     @abc.abstractmethod
-    def sleep(self):
+    def Sleep(self):
         pass
