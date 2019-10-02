@@ -1,6 +1,6 @@
 from random import *
 from Animal import *
-from Canine import *
+from Feline import *
 
 class Tiger(Feline):
     

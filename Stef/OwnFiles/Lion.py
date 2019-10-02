@@ -1,6 +1,6 @@
 from random import *
 from Canine import *
-from Animal import *
+from Feline import *
 
 class Lion(Feline):
     y = random.randint(1,2)
