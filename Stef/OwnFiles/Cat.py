@@ -14,22 +14,22 @@ class Cat(Feline):
 
     def Roam(self):
         if (Cat.y == 1):
-            return ("Cat roamed.")
+            print ("Cat roamed.")
         else:
-            return ("Cat did not roam.")
+            print ("Cat did not roam.")
 
     def Eat(self):
         if(Cat.y == 1):
-            return ("Cat ate.")
+            print ("Cat ate.")
         else:
-            return ("Cat did not want to eat.")
+            print ("Cat did not want to eat.")
 
     def Sleep(self):
         if(Cat.y == 1):
-            return ("Cat is sleeping.")
+            print ("Cat is sleeping.")
 
         else:
-            return ("Cat did not want to sleep.")
+            print ("Cat did not want to sleep.")
 
 
     def WakeUp(self):

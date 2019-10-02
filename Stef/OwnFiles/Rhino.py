@@ -12,26 +12,26 @@ class Rhino(Pachyderm):
 
     def Roam(self):
         if (Rhino.y == 1):
-            return ("Rhino roamed.")
+            print ("Rhino roamed.")
         else:
-            return ("Rhino did not roam.")
+            print ("Rhino did not roam.")
 
     def Eat(self):
         if(Rhino.y == 1):
-            return ("Rhino ate.")
+            print ("Rhino ate.")
         else:
-            return ("Rhino did not want to eat.")
+            print ("Rhino did not want to eat.")
 
     def Sleep(self):
         if(Rhino.y == 1):
-            return ("Rhino is sleeping.")
+            print ("Rhino is sleeping.")
 
         else:
-            return ("Rhino did not want to sleep.")
+            print ("Rhino did not want to sleep.")
 
 
     def WakeUp(self):
         if(Rhino.y == 1):
-            return ("Rhino is awake.")
+            print ("Rhino is awake.")
         else:
-            return ("Rhino did not want to wake up.")
+            print ("Rhino did not want to wake up.")

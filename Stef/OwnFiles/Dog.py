@@ -12,26 +12,26 @@ class Dog(Canine):
 
     def Roam(self):
         if (Dog.y == 1):
-            return ("Dog roamed.")
+            print ("Dog roamed.")
         else:
-            return ("Dog did not roam.")
+            print ("Dog did not roam.")
 
     def Eat(self):
         if(Dog.y == 1):
-            return ("Dog ate.")
+            print ("Dog ate.")
         else:
-            return ("Dog did not want to eat.")
+            print ("Dog did not want to eat.")
 
     def Sleep(self):
         if(Dog.y == 1):
-            return ("Dog is sleeping.")
+            print ("Dog is sleeping.")
 
         else:
-            return ("Dog did not want to sleep.")
+            print ("Dog did not want to sleep.")
 
 
     def WakeUp(self):
         if(Dog.y == 1):
-            return ("Dog is awake.")
+            print ("Dog is awake.")
         else:
-            return ("Dog did not want to wake up.")
+            print ("Dog did not want to wake up.")

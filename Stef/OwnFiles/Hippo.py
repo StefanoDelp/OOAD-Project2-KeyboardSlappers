@@ -13,26 +13,26 @@ class Hippo(Pachyderm):
         
     def Roam(self):
         if (Hippo.y == 1):
-            return ("Hippo roamed.")
+            print ("Hippo roamed.")
         else:
-            return ("Hippo did not roam.")
+            print ("Hippo did not roam.")
         
     def Eat(self):
         if(Hippo.y == 1):
-            return ("Hippo ate.")
+            print ("Hippo ate.")
         else: 
-            return ("Hippo did not want to eat.")
+            print ("Hippo did not want to eat.")
         
     def Sleep(self):
         if(Hippo.y == 1):
-            return ("Hippo is sleeping.") 
+            print ("Hippo is sleeping.") 
         
         else:
-            return ("Hippo did not want to sleep.") 
+            print ("Hippo did not want to sleep.") 
          
      
     def WakeUp(self): 
         if(Hippo.y == 1):  
-            return ("Hippo is awake.") 
+            print ("Hippo is awake.") 
         else: 
-            return ("Hippo did not want to wake up.")
+            print ("Hippo did not want to wake up.")

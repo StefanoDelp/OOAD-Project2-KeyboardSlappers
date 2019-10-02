@@ -14,25 +14,25 @@ class Wolf(Canine):
 
     def Roam(self):
         if (Wolf.y == 1):
-            return ("Wolf roamed.")
+            print ("Wolf roamed.")
         else:
-            return ("Wolf did not roam.")
+            print ("Wolf did not roam.")
 
     def Eat(self):
         if(Wolf.y == 1):
-            return ("Tiger ate.")
+            print ("Tiger ate.")
         else:
-            return ("Wolf did not want to eat.")
+            print ("Wolf did not want to eat.")
 
     def Sleep(self):
         if(Wolf.y == 1):
-            return ("Wolf is sleeping.")
+            print ("Wolf is sleeping.")
 
         else:
-            return ("Wolf did not want to sleep.")
+            print ("Wolf did not want to sleep.")
 
     def WakeUp(self):
         if(Wolf.y == 1):
-            return ("Wolf is awake.")
+            print ("Wolf is awake.")
         else:
-            return ("Wolf did not want to wake up.")
+            print ("Wolf did not want to wake up.")

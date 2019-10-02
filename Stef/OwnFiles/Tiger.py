@@ -12,26 +12,26 @@ class Tiger(Feline):
 
     def Roam(self):
         if (Tiger.y == 1):
-            return ("Tiger roamed.")
+            print ("Tiger roamed.")
         else:
-            return ("Tiger did not roam.")
+            print ("Tiger did not roam.")
 
     def Eat(self):
         if(Tiger.y == 1):
-            return ("Tiger ate.")
+            print ("Tiger ate.")
         else:
-            return ("Tiger did not want to eat.")
+            print ("Tiger did not want to eat.")
 
     def Sleep(self):
         if(Tiger.y == 1):
-            return ("Tiger is sleeping.")
+            print ("Tiger is sleeping.")
 
         else:
-            return ("Tiger did not want to sleep.")
+            print ("Tiger did not want to sleep.")
 
 
     def WakeUp(self):
         if(Tiger.y == 1):
-            return ("Tiger is awake.")
+            print ("Tiger is awake.")
         else:
-            return ("Tiger did not want to wake up.")
+            print ("Tiger did not want to wake up.")
