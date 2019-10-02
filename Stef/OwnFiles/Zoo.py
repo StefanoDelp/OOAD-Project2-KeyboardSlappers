@@ -12,12 +12,12 @@ from ZooKeeper import *
 
 class Zoo():
     def main(self):
-        WillieWolf = Wolf()
-        WhinnyWolf = Wolf()
+        WillieWolf = Wolf(FeedWithFear)
+        WhinnyWolf = Wolf(FeedWithFear)
         CarlCat = Cat()
         CindyCat = Cat()
-        DougDog = Dog()
-        DippyDog = Dog()
+        DougDog = Dog(FeedWithCare)
+        DippyDog = Dog(FeedWithCare)
         EllyElephant = Elephant()
         EarlElephant = Elephant()
         HarryHippo = Hippo()
