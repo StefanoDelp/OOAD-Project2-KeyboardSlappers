@@ -1,5 +1,6 @@
 from Animal import *
 from Canine import *
+from random import *
 
 class Wolf(Canine):
 
@@ -8,22 +9,22 @@ class Wolf(Canine):
     food = "Deer"
 
 
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Howl")
 
-    def roam(self):
+    def Roam(self):
         if (Wolf.y == 1):
             return ("Wolf roamed.")
         else:
             return ("Wolf did not roam.")
 
-    def eat(self):
+    def Eat(self):
         if(Wolf.y == 1):
             return ("Tiger ate.")
         else:
             return ("Wolf did not want to eat.")
 
-    def sleep(self):
+    def Sleep(self):
         if(Wolf.y == 1):
             return ("Wolf is sleeping.")
 
@@ -32,6 +33,13 @@ class Wolf(Canine):
 
 
     def wakeUp(self):
+        if(Wolf.y == 1):
+            return ("Wolf is awake.")
+        else:
+            return ("Wolf did not want to sleep.")
+
+
+    def WakeUp(self):
         if(Wolf.y == 1):
             return ("Wolf is awake.")
         else:

@@ -8,26 +8,26 @@ class Hippo(Pachyderm):
     Names = ""
     food = "Watermelon"
 
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Snap")
         
     ###def setName(Name):
     ###    Names = Name
     ###    return Name
     
-    def roam(self):
+    def Roam(self):
         if (Hippo.y == 1):
             return ("Hippo roamed.")
         else:
             return ("Hippo did not roam.")
         
-    def eat(self):
+    def Eat(self):
         if(Hippo.y == 1):
             return ("Hippo ate.")
         else: 
             return ("Hippo did not want to eat.")
         
-    def sleep(self):
+    def Sleep(self):
         if(Hippo.y == 1):
             return ("Hippo is sleeping.") 
         
@@ -35,7 +35,7 @@ class Hippo(Pachyderm):
             return ("Hippo did not want to sleep.") 
          
      
-    def wakeUp(self): 
+    def WakeUp(self): 
         if(Hippo.y == 1):  
             return ("Hippo is awake.") 
         else: 

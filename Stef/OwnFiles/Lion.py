@@ -7,26 +7,26 @@ class Lion(Feline):
     Names = ""
     food = "Steak"
 
-    def makeNoise(self):
+    def MakeNoise(self):
         print("ROAR")
         
     ###def setName(Name):
     ###    Names = Name
     ###    return Name
     
-    def roam(self):
+    def Roam(self):
         if (Lion.y == 1):
             return ("Lion roamed.")
         else:
             return ("Lion did not roam.")
         
-    def eat(self):
+    def Eat(self):
         if(Lion.y == 1):
             return ("Lion ate.")
         else: 
             return ("Lion did not want to eat.")
         
-    def sleep(self):
+    def Sleep(self):
         if(Lion.y == 1):
             return ("Lion is sleeping.") 
         
@@ -34,7 +34,7 @@ class Lion(Feline):
             return ("Lion did not want to sleep.") 
          
      
-    def wakeUp(self): 
+    def WakeUp(self): 
         if(Lion.y == 1):  
             return ("Lion is awake.") 
         else: 

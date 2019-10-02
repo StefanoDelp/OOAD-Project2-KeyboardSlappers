@@ -3,7 +3,7 @@ import random
 class Canine(Animal):
     Names = ""
 
-    def makeNoise(self):
+    def MakeNoise(self):
         print("Dog")
 
     #def setName(self):
@@ -32,7 +32,7 @@ class Canine(Animal):
 
 
     def wakeUp(self):
-        if(Canine.y == 1):  
+        if(Canine.y == 1):
             return ("Canine is awake.")
         else:
             return ("Canine did not want to wake up.")
