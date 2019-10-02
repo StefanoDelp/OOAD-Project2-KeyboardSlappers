@@ -7,9 +7,6 @@ class Animal(abc.ABC):
     def WakeUp(self):
         pass
     @abc.abstractmethod
-    def Response(self):
-        pass
-    @abc.abstractmethod
     def Roam(self):
         pass
     awake = False
