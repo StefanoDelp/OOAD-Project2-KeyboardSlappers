@@ -16,7 +16,7 @@ from ZooKeeper import *
 #     def Observer(self, observer):
 #         self._observers.append(observer)
 
-from __future__ import annotations
+#from __future__ import annotations
 from abc import ABC, abstractmethod
 from random import randrange
 from typing import List
@@ -125,7 +125,7 @@ class ConcreteObserverB(Observer):
     def update(self, subject: Subject) -> None:
         if subject._state == 0 or subject._state >= 2:
             print("ConcreteObserverB: Reacted to the event")
-?
+
 
 if __name__ == "__main__":
     # The client code.
