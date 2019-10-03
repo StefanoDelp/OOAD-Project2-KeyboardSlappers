@@ -53,7 +53,6 @@ class ZooKeeper():
     """
     def __init__(self):
         self.observers = set()
-
     """
     Once the ZooKeeper completes his last task for the day,
     the ZooAnnouncer should cease observing and deconstruct.
@@ -73,9 +72,6 @@ class ZooKeeper():
         for object in self.observers:
             object.update()
 
-    # def withdraw(self, amt):
-    #     self.balance -= amt
-    #     self.notify()
 """
 This is where the observer pattern will be implemented.
 Example from the book "Python Essential Reference" involving observer pattern.
@@ -116,7 +112,7 @@ class ZooAnnouncer(object):
         print("That's all folks")
 
 a = ZooKeeper()
-a_mama = ZooAnnouncer(a)
-a_tata = ZooAnnouncer(a)
-a.WakeUp(a_mama)
+one = ZooAnnouncer(a)
+two = ZooAnnouncer(a)
+a.WakeUp(one)
 #a.withdraw(10)
