@@ -1,21 +1,3 @@
-# import abc
-from Wolf import *
-from Cat import *
-from Dog import *
-from Elephant import *
-from Hippo import *
-from Lion import *
-from Rhino import *
-from Tiger import *
-from ZooKeeper import *
-#
-# class ZooAnnouncer():
-#     def __init__(self):
-#         self._observers = []
-#
-#     def Observer(self, observer):
-#         self._observers.append(observer)
-
 #from __future__ import annotations
 from abc import ABC, abstractmethod
 from random import randrange
@@ -26,6 +8,7 @@ class Subject(ABC):
     """
     The Subject interface declares a set of methods for managing subscribers.
     """
+
     @abstractmethod
     def attach(self, observer: Observer) -> None:
         """
@@ -100,10 +83,12 @@ class ConcreteSubject(Subject):
         print(f"Subject: My state has just changed to: {self._state}")
         self.notify()
 
+
 class Observer(ABC):
     """
     The Observer interface declares the update method, used by subjects.
     """
+
     @abstractmethod
     def update(self, subject: Subject) -> None:
         """
@@ -111,10 +96,13 @@ class Observer(ABC):
         """
         pass
 
+
 """
 Concrete Observers react to the updates issued by the Subject they had been
 attached to.
 """
+
+
 class ConcreteObserverA(Observer):
     def update(self, subject: Subject) -> None:
         if subject._state < 3:
