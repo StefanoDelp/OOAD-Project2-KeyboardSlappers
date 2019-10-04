@@ -2,6 +2,12 @@ import abc
 from abc import ABC, abstractmethod
 from typing import List
 
+## example taken from 
+
+#### https://refactoring.guru/design-patterns/strategy/python/example
+
+
+## setting the stagey pattern to the eat method 
 class Strategy(abc.ABC):
 
     @abstractmethod
@@ -47,7 +53,7 @@ class Animal(abc.ABC):
         """
 
         self._strategy = strategy
-
+    ## eat will be set to what ever is sent in 
     def Eat(self) -> None:
         """
         The Context delegates some work to the Strategy object instead of
@@ -61,11 +67,11 @@ class Animal(abc.ABC):
 
         # ...
 
-
+## the methods that can be sent into the stragey pattern
 class FeedWithCare(Strategy):
     def Eat(self):
         return("Animal Fed with Care")
-
+## the methods that can be sent into the stragey pattern
 class FeedWithFear(Strategy):
     def Eat(self):
         return("Wolf Fed with Fear")

@@ -10,6 +10,29 @@ from Tiger import *
 
 class ZooKeeper():
     Animals = []
+    _state: int = None
+    _observers: List[Observer] = []
+    ## attachs new methods to be watched 
+    def attach(self, observer: Observer) -> None:
+        self._observers.append(observer)
+
+    ## attachs new methods to be watched 
+    def detach(self, observer: Observer) -> None:
+        self._observers.remove(observer)
+
+    """
+        The subscription management methods.
+    """
+
+    ## notifys when there is a change of status
+    def notify(self) -> None:
+        """
+        Trigger an update in each subscriber.
+        """
+        for observer in self._observers:
+            observer.update(self)
+
+
     def Add(self , Animal):
         ZooKeeper.Animals.append(Animal)
 
