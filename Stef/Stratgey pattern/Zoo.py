@@ -1,3 +1,8 @@
+"""
+
+No longer used has been moved into main.py
+
+
 import abc
 from Wolf import *
 from Cat import *
@@ -13,7 +18,7 @@ from Animal2 import *
 
 
 class Zoo():
-    def main(self):
+    def main(self, ZooKeeper):
         WillieWolf = Wolf(FeedWithFear())
         WhinnyWolf = Wolf(FeedWithFear())
         CarlCat = Cat()
@@ -30,31 +35,27 @@ class Zoo():
         RandyRhino = Rhino()
         TonyTiger = Tiger()
         TimmyTiger = Tiger()
-        ZaneZooKeeper = ZooKeeper()
-        ZaneZooKeeper.Add(WillieWolf)
-        ZaneZooKeeper.Add(WhinnyWolf)
-        ZaneZooKeeper.Add(CarlCat)
-        ZaneZooKeeper.Add(CindyCat)
-        ZaneZooKeeper.Add(DougDog)
-        ZaneZooKeeper.Add(DippyDog)
-        ZaneZooKeeper.Add(EllyElephant)
-        ZaneZooKeeper.Add(EarlElephant)
-        ZaneZooKeeper.Add(HarryHippo)
-        ZaneZooKeeper.Add(HenryHippo)
-        ZaneZooKeeper.Add(LillyLion)
-        ZaneZooKeeper.Add(LarryLion)
-        ZaneZooKeeper.Add(RyanRhino)
-        ZaneZooKeeper.Add(RandyRhino)
-        ZaneZooKeeper.Add(TonyTiger)
-        ZaneZooKeeper.Add(TimmyTiger)
-        ZaneZooKeeper.WakeUp()
-        ZaneZooKeeper.RollCall()
-        ZaneZooKeeper.Roam()
-        ZaneZooKeeper.Eat()
-        ZaneZooKeeper.Sleep()
+        ZooKeeper.Add(WillieWolf)
+        ZooKeeper.Add(WhinnyWolf)
+        ZooKeeper.Add(CarlCat)
+        ZooKeeper.Add(CindyCat)
+        ZooKeeper.Add(DougDog)
+        ZooKeeper.Add(DippyDog)
+        ZooKeeper.Add(EllyElephant)
+        ZooKeeper.Add(EarlElephant)
+        ZooKeeper.Add(HarryHippo)
+        ZooKeeper.Add(HenryHippo)
+        ZooKeeper.Add(LillyLion)
+        ZooKeeper.Add(LarryLion)
+        ZooKeeper.Add(RyanRhino)
+        ZooKeeper.Add(RandyRhino)
+        ZooKeeper.Add(TonyTiger)
+        ZooKeeper.Add(TimmyTiger)
+        ZooKeeper.WakeUp()
+        ZooKeeper.RollCall()
+        ZooKeeper.Roam()
+        ZooKeeper.Eat()
+        ZooKeeper.Sleep()
+"""
 
-
-if __name__ == '__main__':
-    SlappingZoo = Zoo()
-    SlappingZoo.main()
     
