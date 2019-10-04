@@ -1,20 +1,20 @@
-PS C:\Users\stefano\Desktop\OOAD-Project2-KeyboardSlappers> & "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/python.exe" "c:/Users/stefano/Desktop/OOAD-Project2-KeyboardSlappers/Stef/Stratgey pattern/Main.py"
+PS C:\Users\stefano\Desktop\OOAD-Project2-KeyboardSlappers> & "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/python.exe" "c:/Users/stefano/Desktop/OOAD-Project2-KeyboardSlappers/Final Zoo/Main.py"
 Zoo Announcer: The Zoo Keeper is Waking up the Animals
 Now Doing Wake Up
 Wolf did not want to wake up.
 Wolf did not want to wake up.
-Dog is awake.
-Dog is awake.
-Elephant did not want to wake up.
-Elephant did not want to wake up.
-Hippo is awake.
-Hippo is awake.
-Lion did not want to wake up.
-Lion did not want to wake up.
-Rhino did not want to wake up.
-Rhino did not want to wake up.
-Tiger is awake.
-Tiger is awake.
+Dog did not want to wake up.
+Dog did not want to wake up.
+Elephant is awake.
+Elephant is awake.
+Hippo did not want to wake up.
+Hippo did not want to wake up.
+Lion is awake.
+Lion is awake.
+Rhino is awake.
+Rhino is awake.
+Tiger did not want to wake up.
+Tiger did not want to wake up.
 Zoo Announcer: The Zoo Keeper is Roll Calling the Animals
 Now Doing RollCall
 Howl
@@ -39,18 +39,18 @@ Wolf did not roam.
 Wolf did not roam.
 Cat roamed.
 Cat roamed.
-Dog roamed.
-Dog roamed.
-Elephant did not roam.
-Elephant did not roam.
-Hippo roamed.
-Hippo roamed.
-Lion did not roam.
-Lion did not roam.
-Rhino did not roam.
-Rhino did not roam.
-Tiger roamed.
-Tiger roamed.
+Dog did not roam.
+Dog did not roam.
+Elephant roamed.
+Elephant roamed.
+Hippo did not roam.
+Hippo did not roam.
+Lion roamed.
+Lion roamed.
+Rhino roamed.
+Rhino roamed.
+Tiger did not roam.
+Tiger did not roam.
 Zoo Announcer: The Zoo Keeper is Feeding the Animals
 Now Doing Eat
 Wolf Fed with Fear
@@ -59,31 +59,32 @@ Cat ate.
 Cat ate.
 Animal Fed with Care
 Animal Fed with Care
-Elephant did not want to eat.
-Elephant did not want to eat.
-Hippo ate.
-Hippo ate.
-Lion did not want to eat.
-Lion did not want to eat.
-Rhino did not want to eat.
-Rhino did not want to eat.
-Tiger ate.
-Tiger ate.
+Elephant ate.
+Elephant ate.
+Hippo did not want to eat.
+Hippo did not want to eat.
+Lion ate.
+Lion ate.
+Rhino ate.
+Rhino ate.
+Tiger did not want to eat.
+Tiger did not want to eat.
 Zoo Announcer: The Zoo Keeper is telling the aniamls to go to bed
 Now Doing Sleep
 Wolf did not want to sleep.
 Wolf did not want to sleep.
 Cat is sleeping.
 Cat is sleeping.
-Dog is sleeping.
-Dog is sleeping.
-Elephant did not want to sleep.
-Elephant did not want to sleep.
-Hippo is sleeping.
-Hippo is sleeping.
-Lion did not want to sleep.
-Lion did not want to sleep.
-Rhino did not want to sleep.
-Rhino did not want to sleep.
-Tiger is sleeping.
-Tiger is sleeping.
+Dog did not want to sleep.
+Dog did not want to sleep.
+Elephant is sleeping.
+Elephant is sleeping.
+Hippo did not want to sleep.
+Hippo did not want to sleep.
+Lion is sleeping.
+Lion is sleeping.
+Rhino is sleeping.
+Rhino is sleeping.
+Tiger did not want to sleep.
+Tiger did not want to sleep.
+Zoo is now Closed

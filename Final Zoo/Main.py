@@ -74,3 +74,13 @@ if __name__ == "__main__":
     ZaneZooKeeper.Roam()
     ZaneZooKeeper.Eat()
     ZaneZooKeeper.Sleep()
+
+
+    ## Detaching
+    ZaneZooKeeper.detach(WakeObserver)
+    ZaneZooKeeper.detach(RollCallObserver)
+    ZaneZooKeeper.detach(RoamCallObserver)
+    ZaneZooKeeper.detach(EatObserver)
+    ZaneZooKeeper.detach(SleepObserver)
+
+    print("Zoo is now Closed")
