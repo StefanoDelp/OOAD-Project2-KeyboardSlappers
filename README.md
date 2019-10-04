@@ -1,10 +1,10 @@
 # OOAD-Project2-KeyboardSlappers
 
-## Stefano Delpiccolo
+ Stefano Delpiccolo
 
-## Miguel Vasquez
+ Miguel Vasquez
 
-## Gabe Raymondi
+ Gabe Raymondi
 
 
 Open the Final Zoo folder and Run the following comands in terminal:
