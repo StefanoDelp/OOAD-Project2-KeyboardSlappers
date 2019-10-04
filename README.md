@@ -6,6 +6,8 @@
 
  Gabe Raymondi
 
+The following project was done using Python 3
+
 
 Open the Final Zoo folder and Run the following comands in terminal:
 
